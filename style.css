@@ -53,6 +53,10 @@
   color: white;
 }
 
+.menu1 a:hover, .menu2 a:hover {
+  text-decoration: underline;
+}
+
 .content {
     background-color: gray;
     grid-column: 2 / 3; 
