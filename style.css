@@ -13,3 +13,15 @@
 .container > div {
   border: 1px solid #999; /* shows the grid cell boundaries REMOVE*/
 }
+
+.header {
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    background-color: blue;
+}
+
+.content {
+    background-color: gray;
+}
