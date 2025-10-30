@@ -12,10 +12,12 @@
 
 .container > div {
   border: 1px solid #999; /* shows the grid cell boundaries REMOVE*/
+  background-color: whitesmoke;
+  padding: 15px;
 }
 
 .header {
-    background-color: whitesmoke;
+    background-color: greenyellow;
 }
 
 .sidebar {
