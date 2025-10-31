@@ -37,6 +37,38 @@
 .header-search-bar {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.header-search-bar input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.header-search-bar input[type="text"]:focus {
+  border-color: #333;
+}
+
+.header-search-bar button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-search-bar button:hover {
+  background-color: #555;
 }
 
 .header-top-right {
