@@ -6,7 +6,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 20% 80%; /* Header | Content */
+    grid-template-rows: 1fr 4fr; /* Header | Content */
     gap: 4px;
     padding: 20px 20px 20px 20px;
     background-color: black; /* this can be removed*/
@@ -19,12 +19,46 @@
   font-family: Helvetica;
 }
 
+
+
 .header {
   display: grid;
   background-color: whitesmoke;
   grid-column: 2 / 3; 
   grid-row: 1 / 2;
+
+  /* nested grid  */
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+  padding: 10px;
 }
+
+.header-search-bar {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background: #e0e0e0;
+}
+
+.header-top-right {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: #d0d0d0;
+}
+
+.header-bottom-left {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: #c0c0c0;
+}
+
+.header-bottom-right {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: #b0b0b0;
+}
+
+
 
 .sidebar {
     display: grid;
