@@ -5,10 +5,12 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 20% 80%; /* Header | Content */
     gap: 4px;
     padding: 20px 20px 20px 20px;
     background-color: black; /* this can be removed*/
+    height: 80vh; 
 }
 
 .container > div {
@@ -18,8 +20,10 @@
 }
 
 .header {
-    background-color: whitesmoke;
-    grid-column: 2 / 3; 
+  display: grid;
+  background-color: whitesmoke;
+  grid-column: 2 / 3; 
+  grid-row: 1 / 2;
 }
 
 .sidebar {
@@ -45,6 +49,7 @@
   margin: 0;
   display: grid;
   gap: 1rem; /* spacing between menu items */
+  
 }
 
 .menu1 a, .menu2 a {
@@ -65,13 +70,15 @@
 }
 
 .menu2 {
-    align-self: end;
-    margin-bottom: 2rem;
+  align-self: end;
+  margin-bottom: 15rem;
 }
 
 .content {
-    background-color: lightgray;
-    grid-column: 2 / 3; 
+  display: grid;
+  background-color: lightgray;
+  grid-column: 2 / 3; 
+  grid-row: 2 / 3; 
 }
 
 
