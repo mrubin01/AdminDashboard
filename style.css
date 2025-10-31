@@ -76,12 +76,22 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   background: #d0d0d0;
+
+  /* nested flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem; 
+  background-color: transparent;
+  padding-right: 10px;
 }
 
 .header-bottom-left {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   background: #c0c0c0;
+
+
 }
 
 .header-bottom-right {
