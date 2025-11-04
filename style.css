@@ -19,8 +19,6 @@
   font-family: Helvetica;
 }
 
-
-
 .header {
   display: grid;
   background-color: whitesmoke;
@@ -76,7 +74,6 @@
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   background: #d0d0d0;
-
   /* nested flexbox*/
   display: flex;
   align-items: center;
@@ -98,24 +95,12 @@
   fill: #007bff;
 }
 
-.user-avatar-icon {
+.home-circle {
   width: 40px;
   height: 40px;
   fill: #777;
   /* You could add border-radius if you want it circular */
   border-radius: 50%;
-}
-
-.user-avatar-icon {
-  width: 40px;
-  height: 40px;
-  fill: #777;
-  /* You could add border-radius if you want it circular */
-  border-radius: 50%;
-}
-.user-name {
-  font-weight: 500;
-  color: #333;
 }
 
 .user-name {
