@@ -209,7 +209,37 @@
   background-color: lightgray;
   grid-column: 2 / 3; 
   grid-row: 2 / 3; 
+
+  /* nested grid */
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+  grid-template-rows: repeat(2, 1fr);    /* total 6 boxes */
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.project-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  aspect-ratio: 2 / 1; /* wider than tall */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
