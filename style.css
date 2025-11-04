@@ -158,7 +158,7 @@
 
 .sidebar {
     display: grid;
-    background-color: blue;
+    background-color: lightskyblue;
     grid-column: 1 / 2; 
     grid-row: 1 / 3;
     row-gap: 4rem;
