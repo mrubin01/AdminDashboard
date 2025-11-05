@@ -10,7 +10,7 @@
     gap: 4px;
     padding: 20px 20px 20px 20px;
     background-color: black; /* this can be removed*/
-    height: 90vh; 
+    height: 100vh; 
 }
 
 .container > div {
@@ -304,8 +304,8 @@
   padding: 20px;
 }
 
-.box1 > h4, .box2 > h4, .box3 > h4 {
-  font-size: medium;
+.box1 > h6, .box2 > h6, .box3 > h6 {
+  font-size: small;
   font-weight: bold;
 }
 
