@@ -234,7 +234,6 @@
 
 .project-box {
   background-color: white;
-  font-size: small;
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -243,6 +242,15 @@
   align-items: start;
   justify-content: space-between;
   gap: 10px;
+}
+
+.project-box >h4 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.project-box >p {
+  font-size: small;
 }
 
 .project-icons {
